@@ -54,7 +54,6 @@ const HighMaps = ({ mapData }) => {
             setOptions(initOptions(mapData))
         }
     }, [mapData])
-    console.log(mapData)
     return (
         <div>
             <HighchartsReact
